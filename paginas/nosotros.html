@@ -7,18 +7,23 @@
     <link rel="shortcut icon" href="../assets/Img/favicon.ico">
     <title>Nosotros</title>
     <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="body__div">
         <header id="header">
-            <a class="header__isologo" href="../index.html"><img src="../assets/Img/isologo.jpg" alt="logo" width="85" height="100"></a>
-            <nav class="header__nav">
-                <a href="../index.html">Inicio</a>
-                <a href="#">Nosotros</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="planes.html">Planes</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
+            <div>
+                <a class="header__isologo" href="#"><img src="../assets/Img/isologo.jpg" alt="logo" width="85" height="100"></a>
+            </div>
+            <div>
+                <nav class="header__nav">
+                    <a href="../index.html">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="planes.html">Planes</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
         </header>
         <main class="main">
             <h1 class="section__nosotros__h1">Outdoor Team, más que un grupo de entrenamiento.</h1>
@@ -35,11 +40,15 @@
         <footer id="footer" class="footer">
             <a class="footer__a" href="index.html">Volver al Inicio</a>
             <h4 class="footer__h4">Outdoor Team Entrenamientos</h4>
-            <div>
-                <a href="https://www.instagram.com/outdoorteam_/" target="_blank"><img src="../assets/Img/iconfinder-social-media-applications-3instagram-4102579_113804.png" alt="logo"></a>
-                <a href="https://wa.me/" target="_blank"> <img src="../assets/Img/Whatsapp_icon-icons.com_66931.png" alt="logo"></a>
+            <div class="footer__isologo animate__animated animate__pulse animate__infinite	infinite"">
+                <a href="https://www.instagram.com/outdoorteam_/" target="_blank"><img src="../assets/Img/Instagram_icon-icons.com_66804.ico" alt="logo"></a>
+                <a href="https://wa.me/" target="_blank"> <img src="../assets/Img/whatsapp_icon-icons.com_62756.ico" alt="logo"></a>
             </div>
         </footer>
     </div>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
