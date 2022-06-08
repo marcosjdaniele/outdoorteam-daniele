@@ -1,11 +1,7 @@
 .main {
     height: 70%;
         .main__planes__h1 {
-            text-align: center;
-            font-size: 1.6rem;
-            font-style: normal;
-            color: map-get($colores, blanco);
-            padding-top: 35px;
+            @extend.section__nosotros__h1;
             padding-bottom: 20px;
                 .section__planes {
                     display: flex;

@@ -78,7 +78,7 @@ body {
 
 .main {
   height: 70%; }
-  .main .section__nosotros__h1 {
+  .main .section__nosotros__h1, .main .main__planes__h1 {
     text-align: center;
     font-size: 1.6rem;
     font-style: normal;
@@ -129,11 +129,6 @@ body {
 .main {
   height: 70%; }
   .main .main__planes__h1 {
-    text-align: center;
-    font-size: 1.6rem;
-    font-style: normal;
-    color: antiquewhite;
-    padding-top: 35px;
     padding-bottom: 20px; }
     .main .main__planes__h1 .section__planes {
       display: flex;
@@ -183,7 +178,7 @@ body {
     width: 45px; }
   .footer__h4 {
     font-size: 1rem; }
-  .section__nosotros__h1 {
+  .section__nosotros__h1, .main .main__planes__h1 {
     text-align: center;
     font-size: 1rem;
     padding: 25px; }
