@@ -1,0 +1,21 @@
+#header {
+    height: 15%;
+    font-size: 1.2rem;
+        .header__navbar {
+            background-color: map-get($colores, negro);
+            margin-bottom: 50px;
+            z-index: 1;
+        }
+        .header__nav {
+            padding: 2.5rem;
+            display: flex;
+            justify-content: space-around;
+        }
+        .header__nav a {
+            color: map-get($colores, blanco);
+            @include animacion-subrayado (none,linear-gradient(currentColor, currentColor),0% 100%,no-repeat,0% 2px,background-size .3s);
+        }
+        .header__nav a:hover, a:focus {
+            background-size: 100% 2px;
+        }
+}

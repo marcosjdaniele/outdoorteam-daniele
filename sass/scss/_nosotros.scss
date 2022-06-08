@@ -1,0 +1,26 @@
+.main {
+    height: 70%;
+        .section__nosotros__h1 {
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: normal;
+            color: map-get($colores, blanco);
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        .section__nosotros {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            background-color: map-get($colores, negrodifuminado);
+                .section__nosotros__div {
+                    color: map-get($colores, blanco);
+                    font-size: 1.2rem;
+                    width: 500px;
+                    height: 300px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+        }
+}

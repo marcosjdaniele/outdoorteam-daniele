@@ -1,0 +1,30 @@
+.main {
+    height: 70%;
+        .main__servicios__h1 {
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: normal;
+            color: map-get($colores, blanco);
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        .main__servicios {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            text-align: left;
+            align-items: center;
+                .main__servicios__div {
+                    background-color: map-get($colores, negrodifuminado);
+                    width: 400px;
+                    height: 300px;
+                    color: map-get($colores, blanco);
+                    font-style: normal;
+                    font-size: 1.2rem;
+                    list-style-type: none;
+                    margin: 30px;
+                    padding: 20px;
+                }
+        }
+}

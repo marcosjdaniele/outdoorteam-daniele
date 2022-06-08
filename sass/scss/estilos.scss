@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "variables";
+@import "mixin";
+@import "reset";
+@import "body";
+@import "header";
+@import "footer";
+@import "index";
+@import "nosotros";
+@import "servicios";
+@import "planes";
+@import "contacto";
+
+
+/* Vista Mobile */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    gap: 0em 0em;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+}
+header { 
+    grid-area: header; 
+}
+main { 
+    grid-area: main; 
+}
+footer { 
+    grid-area: footer; 
+}
+
+#header , #footer {
+    font-size: 0.8rem;
+    padding: 0%;
+}
+.div__isologo {
+    width: 65px;
+}
+
+.footer__isologo {
+    width: 45px;
+}
+.footer__h4 {
+    font-size: 1rem;
+}
+.section__nosotros__h1 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 25px;
+}
+.section__nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000007c;
+
+}
+.section__nosotros__div {
+    text-align: center;
+    font-size: 0.8rem;
+    width: 250px;
+    height: 150px;
+}
+.mapa {
+    width: 100%;
+    height: 200px;
+}
+
+/*CSS SERVICIOS*/
+.main__servicios__h1 {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 25px;
+}
+.main__servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.main__servicios__div {
+    width: 400px;
+    height: 120px;
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+/*CSS PLANES*/
+.main__planes__h1 {
+    font-size: 1rem;
+    padding: 25px;
+}
+.section__planes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.section__planes__div {
+    font-size: 0.8rem;
+    padding: 5px;
+    margin: 15px;
+    width: 50%;
+}
+
+}

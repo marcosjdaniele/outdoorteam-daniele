@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    background-image: url(../assets/Img/fondo-index.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        .body__div {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            background-image: linear-gradient(to bottom, #000000, #000000, #000000, #000000d1, #b9b9b900, #b9b9b900, #b9b9b900, #b9b9b900, #000000b5, #000000d5, #000000, #000000);
+        }
+}

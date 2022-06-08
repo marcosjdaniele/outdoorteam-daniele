@@ -1,0 +1,8 @@
+En cuanto al SEO:
+- Se corroboró que no hubiera errores ortográficos.
+- Se ordenó y alineó el código en todas sus líneas.
+- Se agregó meta name="description" y meta name="keywords".
+
+En cuanto a Sass:
+- Se agregaron Imports y se dividió por secciones y páginas.
+- Se agregaron variable mapa, extend y mixin optimizando el código.
