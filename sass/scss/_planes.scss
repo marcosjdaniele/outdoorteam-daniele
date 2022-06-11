@@ -2,24 +2,7 @@
     height: 70%;
         .main__planes__h1 {
             @extend.section__nosotros__h1;
-            padding-bottom: 20px;
-                .section__planes {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: nowrap;
-                    justify-content: space-evenly;
-                    text-align: center;
-                        .section__planes__div {
-                            background-color: map-get($colores, negrodifuminado);
-                            width: 30%;
-                            height: 50%;
-                            color: map-get($colores, blanco);
-                            font-style: normal;
-                            font-size: 1.2rem;
-                            list-style-type: none;
-                            margin-top: 30px;
-                            padding: 4%;
-                        }
+            padding-bottom: 0px;
                 }
         }
-}
+

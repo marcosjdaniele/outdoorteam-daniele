@@ -41,7 +41,8 @@ body {
 
 #footer {
   height: 15%;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  padding-top: 1.8rem; }
   #footer .footer {
     display: flex;
     flex-direction: row;
@@ -74,7 +75,7 @@ body {
     font-style: italic; }
   .main .section__h2 {
     padding-bottom: 20px;
-    margin-top: 120px; }
+    margin-top: 20px; }
 
 .main {
   height: 70%; }
@@ -86,18 +87,14 @@ body {
     padding-top: 35px;
     padding-bottom: 35px; }
   .main .section__nosotros {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    background-color: rgba(0, 0, 0, 0.407); }
+    background-color: rgba(0, 0, 0, 0.615); }
     .main .section__nosotros .section__nosotros__div {
       color: antiquewhite;
       font-size: 1.2rem;
-      width: 500px;
-      height: 300px;
-      margin-top: 20px;
-      margin-bottom: 20px; }
+      width: 31rem;
+      height: 19rem;
+      margin-top: 1.3rem;
+      margin-bottom: 1.3rem; }
 
 .main {
   height: 70%; }
@@ -107,52 +104,25 @@ body {
     font-style: normal;
     color: antiquewhite;
     padding-top: 35px;
-    padding-bottom: 35px; }
-  .main .main__servicios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    text-align: left;
-    align-items: center; }
-    .main .main__servicios .main__servicios__div {
-      background-color: rgba(0, 0, 0, 0.407);
-      width: 400px;
-      height: 300px;
-      color: antiquewhite;
-      font-style: normal;
-      font-size: 1.2rem;
-      list-style-type: none;
-      margin: 30px;
-      padding: 20px; }
+    padding-bottom: 15px; }
+  .main .main__servicios__div {
+    background-color: rgba(0, 0, 0, 0.615);
+    width: 550px;
+    height: 120px;
+    padding-top: 15px;
+    color: antiquewhite; }
 
 .main {
   height: 70%; }
   .main .main__planes__h1 {
-    padding-bottom: 20px; }
-    .main .main__planes__h1 .section__planes {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: space-evenly;
-      text-align: center; }
-      .main .main__planes__h1 .section__planes .section__planes__div {
-        background-color: rgba(0, 0, 0, 0.407);
-        width: 30%;
-        height: 50%;
-        color: antiquewhite;
-        font-style: normal;
-        font-size: 1.2rem;
-        list-style-type: none;
-        margin-top: 30px;
-        padding: 4%; }
+    padding-bottom: 0px; }
 
 .main {
   height: 70%; }
   .main .div__contacto {
     width: 50%;
     height: 80%;
-    background-color: rgba(0, 0, 0, 0.407); }
+    background-color: rgba(0, 0, 0, 0.615); }
 
 /* Vista Mobile */
 @media screen and (min-width: 320px) and (max-width: 768px) {
