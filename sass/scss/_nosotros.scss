@@ -1,22 +1,24 @@
 .main {
-    height: 70%;
-        .section__nosotros__h1 {
-            text-align: center;
-            font-size: 1.6rem;
-            font-style: normal;
-            color: map-get($colores, blanco);
-            padding-top: 35px;
-            padding-bottom: 35px;
-        }
-        .section__nosotros {
-            background-color: map-get($colores, negrodifuminado);
-                .section__nosotros__div {
-                    color: map-get($colores, blanco);
-                    font-size: 1.2rem;
-                    width: 31rem;
-                    height: 19rem;
-                    margin-top: 1.3rem;
-                    margin-bottom: 1.3rem;
-                }
-        }
+	.section__nosotros__h1 {
+		text-align: center;
+		font-size: 1.6rem;
+		font-style: normal;
+		color: map-get($colores, blanco);
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.section__nosotros {
+		background-color: map-get($colores, negrodifuminado);
+		//@TODO agregar estas propiedades con media-query
+		height: 500px;
+		overflow: scroll;
+		.section__nosotros__div {
+			color: map-get($colores, blanco);
+			font-size: 1.2rem;
+			width: 31rem;
+			height: 19rem;
+			margin-top: 1.3rem;
+			margin-bottom: 1.3rem;
+		}
+	}
 }
