@@ -103,13 +103,13 @@ body {
     font-size: 1.6rem;
     font-style: normal;
     color: antiquewhite;
-    padding-top: 35px;
-    padding-bottom: 15px; }
+    padding-top: 2.2rem;
+    padding-bottom: 1rem; }
   .main .main__servicios__div {
     background-color: rgba(0, 0, 0, 0.615);
-    width: 550px;
-    height: 120px;
-    padding-top: 15px;
+    width: 34rem;
+    height: 7.5rem;
+    padding-top: 1rem;
     color: antiquewhite; }
 
 .main {
